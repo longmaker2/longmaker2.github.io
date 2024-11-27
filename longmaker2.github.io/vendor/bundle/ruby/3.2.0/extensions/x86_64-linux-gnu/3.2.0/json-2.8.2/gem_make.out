@@ -1,0 +1,30 @@
+current directory: /mnt/c/Users/Long/Desktop/coursera/longmaker2.github.io/longmaker2.github.io/vendor/bundle/ruby/3.2.0/gems/json-2.8.2/ext/json/ext/parser
+/usr/bin/ruby3.2 -I/usr/lib/ruby/vendor_ruby extconf.rb
+checking for rb_enc_interned_str() in ruby.h... yes
+checking for rb_hash_new_capa() in ruby.h... yes
+checking for rb_gc_mark_locations() in ruby.h... yes
+checking for rb_hash_bulk_insert() in ruby.h... yes
+checking for rb_category_warn() in ruby.h... yes
+checking for whether -std=c99 is accepted as CFLAGS... yes
+creating Makefile
+
+current directory: /mnt/c/Users/Long/Desktop/coursera/longmaker2.github.io/longmaker2.github.io/vendor/bundle/ruby/3.2.0/gems/json-2.8.2/ext/json/ext/parser
+make DESTDIR\= sitearchdir\=./.gem.20241127-4495-yh25gm sitelibdir\=./.gem.20241127-4495-yh25gm clean
+make: Warning: File 'Makefile' has modification time 0.25 s in the future
+make: warning:  Clock skew detected.  Your build may be incomplete.
+
+current directory: /mnt/c/Users/Long/Desktop/coursera/longmaker2.github.io/longmaker2.github.io/vendor/bundle/ruby/3.2.0/gems/json-2.8.2/ext/json/ext/parser
+make DESTDIR\= sitearchdir\=./.gem.20241127-4495-yh25gm sitelibdir\=./.gem.20241127-4495-yh25gm
+make: Warning: File 'Makefile' has modification time 0.23 s in the future
+compiling parser.c
+linking shared-object json/ext/parser.so
+make: warning:  Clock skew detected.  Your build may be incomplete.
+
+current directory: /mnt/c/Users/Long/Desktop/coursera/longmaker2.github.io/longmaker2.github.io/vendor/bundle/ruby/3.2.0/gems/json-2.8.2/ext/json/ext/parser
+make DESTDIR\= sitearchdir\=./.gem.20241127-4495-yh25gm sitelibdir\=./.gem.20241127-4495-yh25gm install
+make: Warning: File 'parser.so' has modification time 0.33 s in the future
+/usr/bin/install -c -m 0755 parser.so ./.gem.20241127-4495-yh25gm/json/ext
+make: warning:  Clock skew detected.  Your build may be incomplete.
+
+current directory: /mnt/c/Users/Long/Desktop/coursera/longmaker2.github.io/longmaker2.github.io/vendor/bundle/ruby/3.2.0/gems/json-2.8.2/ext/json/ext/parser
+make DESTDIR\= sitearchdir\=./.gem.20241127-4495-yh25gm sitelibdir\=./.gem.20241127-4495-yh25gm clean
